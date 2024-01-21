@@ -1,10 +1,10 @@
 {
-	"name": "TEMPLATE",
+	"name": "Cmoa jp Page Count",
     "namespace": "http://tampermonkey.net/",
     "copyright": "2024, Jacob Albano",
     "require": [],
     "match": [
-        "https://www.cmoa.jp/"
+        "https://www.cmoa.jp/title/*"
     ],
     "grant": [],
     "icon": "https://www.google.com/s2/favicons?domain=cmoa.jp",

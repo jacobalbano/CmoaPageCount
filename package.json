@@ -1,7 +1,7 @@
 {
-  "name": "cmoa-userscript-template",
+  "name": "cmoa-page-count",
   "version": "1.0.0",
-  "description": "(fill this out)",
+  "description": "Attempt to find page count from bookmeter",
   "author": "Jacob Albano",
   "scripts": {
     "watch": "node server.js",

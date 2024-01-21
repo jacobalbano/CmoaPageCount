@@ -29,9 +29,8 @@ function plugins() {
 }
 
 function* terserIfEnabled() {
-    console.log(JSON.stringify(argv));
-    if (argv.includes('--config-minify'))
-        yield terser();
+    // if (argv.includes('--config-minify'))
+    //     yield terser();
 }
     
 export default [{

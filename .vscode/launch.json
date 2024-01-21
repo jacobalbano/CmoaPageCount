@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://localhost:8124/#",
+            "request": "launch",
+            "url": "http://localhost:8124/#",
+            "webRoot": "${workspaceFolder}/dist",
+            "skipFiles": [
+                "**/livereload*",
+                "**/localforage*",
+                "**/lodash*",
+            ]
+        }
+    ]
+}

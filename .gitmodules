@@ -1,0 +1,3 @@
+[submodule "src/foreign/cmoacommon"]
+	path = src/foreign/cmoacommon
+	url = https://github.com/jacobalbano/CmoaCommon.git

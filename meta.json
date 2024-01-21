@@ -1,0 +1,12 @@
+{
+	"name": "TEMPLATE",
+    "namespace": "http://tampermonkey.net/",
+    "copyright": "2024, Jacob Albano",
+    "require": [],
+    "match": [
+        "https://www.cmoa.jp/"
+    ],
+    "grant": [],
+    "icon": "https://www.google.com/s2/favicons?domain=cmoa.jp",
+    "live-reload": true
+}

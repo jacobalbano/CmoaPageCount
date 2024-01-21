@@ -1,0 +1,142 @@
+{
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module",
+        "ecmaFeatures": {}
+    },
+    "plugins": [
+        "@eslint-community/eslint-plugin-mysticatea"
+    ],
+    "extends": [
+        "eslint:recommended"
+    ],
+    "rules": {
+        "no-var": "error",
+        "array-callback-return": "error",
+        "brace-style": "error",
+        "comma-dangle": [
+            "error",
+            {
+                "arrays": "always-multiline",
+                "objects": "always-multiline",
+                "imports": "always-multiline",
+                "exports": "always-multiline"
+            }
+        ],
+        "no-template-curly-in-string": "error",
+        "no-constant-binary-expression": "error",
+        "no-constant-condition": ["error", { "checkLoops": false }],
+        "no-unreachable": "warn",
+        "no-extra-parens": "error",
+        "consistent-return": "error",
+        "consistent-this": "error",
+        "default-case": "error",
+        "default-case-last": "error",
+        "default-param-last": "error",
+        "no-constructor-return": "error",
+        "dot-notation":"error",
+        "no-shadow": "error",
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false,
+                "variables": false,
+                "classes": false
+            }
+        ],
+        "require-await": "error",
+        "wrap-iife": "error",
+        "no-undefined": "error",
+        "indent": [
+			"warn",
+			"tab",
+			{ "SwitchCase": 1 }
+		],
+        "no-duplicate-imports": "error",
+        "object-shorthand": "error",
+        "no-useless-rename": "error",
+        "no-new-native-nonconstructor":"error",
+        "eqeqeq": [
+            "error",
+            "always",
+            {
+                "null": "never"
+            }
+        ],
+        "complexity": "error",
+        "curly": [
+            "error",
+            "multi-or-nest",
+            "consistent"
+        ],
+        "grouped-accessor-pairs": "error",
+        "no-caller": "error",
+        "no-alert": "error",
+        "no-eval": "error",
+        "no-extra-bind": "error",
+        "no-extra-label": "error",
+        "no-extend-native": "error",
+        "no-invalid-this": "error",
+        "no-lone-blocks": "error",
+        "no-new": "error",
+        "no-new-func": "error",
+        "no-new-wrappers": "error",
+        "no-proto": "error",
+        "no-unused-expressions": "warn",
+        "no-unused-vars": "warn",
+        "no-useless-call": "error",
+        "no-useless-concat": "error",
+        "no-useless-return": "error",
+        "no-void": "error",
+        "strict": "error",
+        "init-declarations": "error",
+        "camelcase": "warn",
+        "no-array-constructor": "error",
+        "no-multiple-empty-lines": "error",
+        "no-new-object": "error",
+        "no-unneeded-ternary": "error",
+        "prefer-const": "error",
+        "prefer-object-spread": "error",
+        "no-implicit-coercion": "error",
+        "no-implicit-globals": "error",
+        "no-console": "error",
+        "semi": "error",
+        "quotes": ["error", "single"],
+        "no-self-compare":"error",
+        "no-unmodified-loop-condition":"error",
+        "no-unreachable-loop":"error",
+        "no-unused-private-class-members":"error",
+        "require-atomic-updates":"error",
+        "func-name-matching":"error",
+        "func-names":["error", "never"],
+        "accessor-pairs":"error",
+        "max-depth": ["warn", 4],
+        "max-nested-callbacks": ["error", 3],
+        "no-confusing-arrow":"error",
+        "no-div-regex":"error",
+        "no-else-return":"error",
+        "no-empty-function":"error",
+        "no-floating-decimal":"error",
+        "no-multi-str":"error",
+        "no-nested-ternary":"error",
+        "no-warning-comments":"warn",
+        "prefer-numeric-literals":"error",
+        "prefer-template":"error",
+        "require-unicode-regexp": "error",
+        "eol-last": ["error", "never"],
+        "yoda":"error",
+        "dot-location": ["error", "property"],
+        "no-multi-spaces":"warn",
+        "@eslint-community/mysticatea/no-this-in-static": "error",
+        "linebreak-style": ["error", "windows"]
+    },
+    "env": {
+        "es6": true,
+        "browser": true,
+        "greasemonkey": true,
+        "node": true
+    },
+    "ignorePatterns": [
+        "dist/*"
+    ]
+}
